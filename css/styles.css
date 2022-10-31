@@ -1,0 +1,86 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf;
+}
+
+.bannerimg {
+	position: relative;
+    text-align: center;
+	width: 100%;
+}
+
+.bannertxt {
+	position: absolute;
+    top: 26%;
+    left: 42%;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 100;
+}
+
+.container{
+	width: 1024px;
+    margin: auto;
+    padding: 10px;
+    background-color: #bfdfdd;    
+}
+
+a {
+	text-decoration: none;
+    color: black;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 2px;
+	margin: 0 117px 0 117px;
+}
+
+nav ul{
+    margin: 0 auto;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #5F8782;
+  }
+
+#mcheading{
+    margin: 0;
+}
+
+.propimg{
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+
+.form {
+    border: 1px solid black;
+    padding: 15px;
+    padding-top: 25px;
+}
+
+.forminput {
+    width: 100%;
+    height:25px;
+}
+
+.formmessageinput {
+ 	width: 100%;
+ 	height:100px;
+}
+
+.formbutton {
+    background-color: transparent;
+    border: .5px solid black;
+    padding: 10px;
+}
+
+footer {
+    text-align: right; 
+}
