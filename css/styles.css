@@ -3,20 +3,25 @@ body {
     background-color: #aad4cf;
 }
 
+/* the font which was recquired with the specific background colour to align the text */
+
 .bannerimg {
 	position: relative;
     text-align: center;
 	width: 100%;
 }
 
+/* lone starfish image aligned at centre fo a proper exposure */
+
 .bannertxt {
 	position: absolute;
-    top: 26%;
-    left: 42%;
-    font-size: 2.5rem;
+    top: 20%;
+    left: 37%;
+    font-size: 65px;
     color: white;
-    font-weight: 100;
 }
+
+/* the heading given the bannerimg as lone starfish center aligned and above the bannerimg */
 
 .container{
 	width: 1024px;
@@ -25,33 +30,54 @@ body {
     background-color: #bfdfdd;    
 }
 
+/*the width of container being 1024px and with the recquired colour for the webpage  */
+
 a {
 	text-decoration: none;
     color: black;
 }
+/* heading for the navigation bar */
+
 
 nav ul li{
 	display: inline;
 }
 
+/* heading aligned inline at web page*/
+
 nav ul li{
 	display: inline-block;
-	padding: 2px;
-	margin: 0 117px 0 117px;
+	padding: 0 125px;
+    font-weight: bold;
+    font-size: 18px;
+    border-right: 1px solid black;
+    }
+
+/*navigation bar is aligned at center of the web page being bold */
+
+ nav{
+    padding-bottom: 50px;
 }
+/* space between navigation bar and the heading */
 
 nav ul{
     margin: 0 auto;
 }
+
+/* margin so that navigation bar is completely aligned */
 
 a:hover {
     text-decoration: none;
     color: #5F8782;
   }
 
+/*element gets selected when we mouse them */
+
 #mcheading{
     margin: 0;
 }
+
+/* space between heading life of starfish */
 
 .propimg{
     width: 200px;
@@ -59,28 +85,38 @@ a:hover {
     padding: 10px;
 }
 
+/* starfish image floating at left with the width of 200px */
+
 .form {
     border: 1px solid black;
     padding: 15px;
     padding-top: 25px;
 }
 
+/* form to collect user input  */
+
 .forminput {
     width: 100%;
     height:25px;
 }
 
+/* form input with the aprropriate height and width of the box for the proper enlightment of the element to the users*/
+
 .formmessageinput {
  	width: 100%;
  	height:100px;
 }
+/* form message input with the appropriate height and the width of the box for the proper resopnse of the users  */
 
 .formbutton {
     background-color: transparent;
     border: .5px solid black;
     padding: 10px;
 }
+/* formbutton to colect the user input by clicking on the provided button */
 
 footer {
     text-align: right; 
 }
+
+/* footer aligned at right side of the web page */
